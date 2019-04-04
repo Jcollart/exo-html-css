@@ -97,62 +97,58 @@ h4 {
     margin: 10px;
 }
 
-#logo2{
-    width: 200px;
-    float: middle;
-    margin: 40px;
-}
-
 #who {
+    width: 100%;
+        height: 65vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     text-align: center;
-     
 }
-#texte{
-    text-align: center;
-    font-size: 30px;
-    
+
+#who img{
+    width: 200px;
+    float: middle;
+    margin: 40px;
 }
-#texte1{
+
+#who p{
     text-align: center;
     font-size: 30px;
 }
 
 #get-involved{
+    width: 100%;
+        height: 35vh;
     position: relative;
     text-align: center;
-}
-
-#col{
-    display:block; position:relative;
     width:900px;
     height:200px;
+    display:block;
 }
 
-#col ul{
+ul{
     display: inline-block;
     width: 100%;
     padding:0px
 }
 
-#col ul li{
+ul li{
     display: inline-block;
     width: 30% ;
     margin-left: 1%;
     margin-right: 1%;
 }
 
-FOOTER{
+footer{
     background-color: #F74C3C;
     width: 100%;
     height: 100px;
     bottom:0px;
-    
 }
-#logo3{
+
+footer img{
     margin-left: 200px;
     bottom: 0px;
 }
