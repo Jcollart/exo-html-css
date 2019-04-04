@@ -13,6 +13,7 @@ nav{
     width: 100%;
     background-color: #000;
     text-align: right;
+    margin-right: 20px;
 }
 
 nav ul {
@@ -45,88 +46,66 @@ nav a{
     vertical-align: middle;
     color:#e7c6b3; 
 }
-
-.jumbotron{
+.content {
+    position: relative;
+    text-align: center;
+    
+}
+#home {
         width: 100%;
         height: 500px;
         position: relative;
-        background-image: url('images/hero-image.jpg');
+        background: url("../images/hero-image.jpg");
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
-}
+        
+        }
     
-.jumbotron h1,
-.jumbotron h2,
-.jumbotron h4 {
-        color: #ffffff;
-        text-transform: uppercase;
+.home h1,
+      h2,
+      h4 {
+         text-transform: uppercase;
     }
     
-.jumbotron h4 {
-        font-size: 10px;
-        background: #ffffff;
+h4 {
+        font-size: 16px;
+        
         display: inline;
         letter-spacing: 5px;
         padding: 15px 40px;
-}
+
     
-.jumbotron a {
-        margin-top: 60px;
+
+button{
+     border:none;
+     padding:6px 0 6px 0;
+     border-radius:8px;
+     background:#d34836;
+     font:bold 13px Arial;
+     font-color:#f74c3c;
 }
-    
-.jumbotron .btn-success,
-.jumbotron .btn-success:not(:disabled):not(.disabled):active {
-        color: #000;
-        font-size: 18px;
-        font-weight: 600;
-        border-radius: 100px;
-        padding: 8px 35px;
-        background-color: #b4dc2d;
-        border-color: #b4dc2d;
-        border: 2px solid #b4dc2d;
-}
-    
-.jumbotron .btn-success:hover {
-        color: #fff;
-        background-color: transparent;
-        border: 2px solid #b4dc2d;
-}
-    
-.jumbotron h2 {
-        font-size: 22px;
-        margin-top: 0;
-        font-weight: 500;
-        padding-bottom: 30px;
-}
-    
-.jumbotron h1 {
-        font-size: 40px;
-        font-weight: 700;
-        text-transform: uppercase;
+#logo1{
+    width: 200px;
+    float: middle;
+    margin: 10px;
 }
 
-.content {
-        position: relative;
-        text-align: center;
+#who {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+     
 }
+#texte{
+    text-align: center;
+    font-size: 30px;
     
-.gradient {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background: -moz-linear-gradient(-45deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
-        background: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
-        background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000', GradientType=1);
 }
-    
-.thumbnail {
-        background-color: whitesmoke;
-        height: 320px;
-        border: none;
-        border-radius: 0px;
-        text-align: center;
-}
+#texte1{
+    text-align: center;
+    font-size: 30px;
+
+ 
