@@ -6,7 +6,26 @@ body {
     min-height: 100%;
     margin: 0;
     padding: 0;
-    position: relative;
+}
+
+h1{
+   font-family: Arvo;
+   font-size: 36px;
+   color:white;
+}
+
+h4{
+   font-family: Arvo;
+   font-size: 30px;
+   padding:10px 0px;
+   color: #f74c3c;
+
+}
+
+hr{
+    border: 1px solid #e74c3c;
+    width: 10%;
+    margin-top: 0px;
 }
 
 nav{
@@ -60,116 +79,99 @@ nav a{
         text-align: center;
 }
     
+#home p{
+       font-size: 15px;
+       color: rgba(255,255,255,.7);
+       font-weight: 100;   
+       padding: 10px 0; 
+}  
+
 #home h1{
-        color:white;
-        font-size:20px;
-        display:inherit;
-        letter-spacing: 5px;
-       /* padding: 15px 40px;*/
-       align-content: center;
-       font-weight: normal;
-       font-family: arvo;
+    margin: 0;
+    padding: 40px 0;
+ }
+
+#home div{
+       margin: auto; 
+       width: 60%;
+       text-align: center;
 }
-    
-#home h4 {
-        font-size: 15px;
-        color: white;
-        display: inline;
-        letter-spacing: 5px;
-        padding: 15px 40px;
-}    
 
 .button {
-    background-color: #f74c3c;
-    border: none;
+    background-color: #d9534f;
+    border: 2px solid #d43f3a;
+    border-radius: 10px;
+    font-size: 36px;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 40px;
-    cursor: pointer;
+    padding: 10px 12px;
+    margin: 30px 0;
 }
 
 #home img{
-    width: 70px;
-    float: middle;
-    margin: 10px;
+    padding: 30px 0;
 }
 
-#who {
+#who{
     width: 100%;
-    height: 65vh;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
     text-align: center;
 }
 
-#who img{
-    width: 200px;
-    float: middle;
-    margin: 40px;
+#who div{
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+#who h2{
+    font-weight: 100; 
+    margin-top: 5px;
+    color: #e74c3c;
 }
 
 #who p{
-    text-align: center;
-    font-size: 30px;
+    font-size: 21px;
 }
 
 #get-involved{
-    width: 100%;
-    height: 50vh;
-    position: relative;
+    background-color: #f5f5f5;
     text-align: center;
-    font-size:;
-
 }
 
-.get-involved h2{
-    font-weight: lighter;
+#get-involved h2{
+    padding-top: 40px;
 }
 
-.box{
-    display: inline-block;
-    width:25%;
-    height:100%;
-    
-}
-
-.fa {
-    font-size: 3.5em;
-    border-radius: 50%;
-    background-color: white;
-    width: 1.4em;
-    height: 1.4em;
-    line-height: 1.2em;
-    
-}
-
-.fa-user{
-     float: middle;
-     border-radius: 50%;
-    background-color: black;
-    color: white;
-}
-
-.fa-pencil{
-    float: middle;
-    border-radius: 50%;
-    background-color: black;
-    color: white;
-}
-
-.fa-money{
-    float: middle;
+#get-involved-flex{
+    display: flex;
+    justify-content: center;
     margin: auto;
-    border-radius: 50%;
-    background-color: black;
-    color: white;
+    width: 80%;
 }
+
+.get-involved-items{
+    width: 40%;
+    padding: 40px; /* ecarte les sections entre elles */
+}
+
+.get-involved-items i{
+    background-color: #333;
+    height: 110px;
+    width: 110px;
+    font-size: 60px;
+    line-height: 110px; /* Meme taille que la hauteur */
+    border-radius: 50%; /* Rond */
+}
+
+.get-involved-items button{
+    background-color: white;
+    color: #e74c3c;
+    font-weight: bold;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
 
 
 footer{
@@ -180,7 +182,21 @@ footer{
 }
 
 footer img{
-    margin-left: 200px;
-    bottom: 0px;
+    position: relative;
+    top: 40%;
+    left: 15%;
 }
+
+#back-to-top{
+    position: fixed;
+    bottom: 50%; 
+    right: 0; 
+}
+
+#back-to-top a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
  
