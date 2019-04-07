@@ -1,3 +1,7 @@
+/*********************************************************
+******************Partie generale*************************
+*********************************************************/
+
 html {
     height: 100%;
 }
@@ -27,6 +31,9 @@ hr{
     width: 10%;
     margin-top: 0px;
 }
+/********************************************************
+**********************NAV-BAR****************************
+********************************************************/
 
 nav{
     width: 100%;
@@ -67,6 +74,9 @@ nav a{
     vertical-align: middle;
     color:#e7c6b3; 
 }
+/********************************************************
+*******************partie home***************************
+********************************************************/
 
 #home  {
         width: 100%;
@@ -97,19 +107,21 @@ nav a{
        text-align: center;
 }
 
-.button {
-    background-color: #d9534f;
-    border: 2px solid #d43f3a;
+#home button {
+    background-color: #e74c3c;
     border-radius: 10px;
-    font-size: 36px;
+    font-size: 15px;
     color: white;
     padding: 10px 12px;
-    margin: 30px 0;
+    margin: 5px 0;
 }
 
 #home img{
-    padding: 30px 0;
+    padding: 20px 0;
 }
+/********************************************************
+*******************partie who****************************
+********************************************************/
 
 #who{
     width: 100%;
@@ -131,6 +143,9 @@ nav a{
 #who p{
     font-size: 21px;
 }
+/********************************************************
+***************partie get-involved***********************
+********************************************************/
 
 #get-involved{
     background-color: #f5f5f5;
@@ -149,8 +164,8 @@ nav a{
 }
 
 .get-involved-items{
-    width: 40%;
-    padding: 40px; /* ecarte les sections entre elles */
+    width: 35%;
+    padding: 40px; 
 }
 
 .get-involved-items i{
@@ -158,8 +173,8 @@ nav a{
     height: 110px;
     width: 110px;
     font-size: 60px;
-    line-height: 110px; /* Meme taille que la hauteur */
-    border-radius: 50%; /* Rond */
+    line-height: 110px; 
+    border-radius: 50%; 
 }
 
 .get-involved-items button{
@@ -170,9 +185,9 @@ nav a{
     border-radius: 5px;
     padding: 10px;
 }
-
-
-
+/********************************************************
+*******************partie footer*************************
+********************************************************/
 
 footer{
     background-color: #F74C3C;
@@ -186,6 +201,9 @@ footer img{
     top: 40%;
     left: 15%;
 }
+/********************************************************
+*****************bouton retour***************************
+********************************************************/
 
 #back-to-top{
     position: fixed;
