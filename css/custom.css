@@ -167,12 +167,12 @@ nav a{
     width: 80%;
 }
 
-.get-involved-items{
+.get-involved-bloc{
     width: 35%;
     padding: 40px; 
 }
 
-.get-involved-items i{
+.get-involved-bloc i{
     background-color: #333;
     height: 110px;
     width: 110px;
@@ -181,7 +181,7 @@ nav a{
     border-radius: 50%; 
 }
 
-.get-involved-items button{
+.get-involved-bloc button{
     background-color: white;
     color: #e74c3c;
     font-weight: bold;
