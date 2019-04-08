@@ -64,7 +64,7 @@ nav li{
     height: 50px;
     text-align: middle;
     vertical-align: middle;
-    right: 
+    
 }
 
 nav a{
@@ -82,7 +82,7 @@ nav a{
 
 #home  {
         width: 100%;
-        height: 60vh;
+        height: 61vh;
         position: relative;
         background: url("../images/hero-image.jpg");
         background-repeat: no-repeat;
@@ -226,10 +226,17 @@ footer img{
 ******************@media query***************************
 ********************************************************/
 
-/*@media screen {
-    #home {
-      width:;  
-      display:;
-      clear:both;
+@media all {
+    #home, #who, #get-involved, #get-involved-bloc{
+      width:auto;
+      height:auto; 
+      border-right: none;
+      border-left: none;
+      margin-left:auto;
+      margin-right:auto;
+    }  
+    footer, nav{
+      display:auto;  
+     
     }
-  }*/
+  }
